@@ -3,7 +3,7 @@ function getDomLevel(element) {
 	let level =0;
 
 	while(element){
-		level++:
+		level++;
 		element = element.parentNode;
 	}
 	return level;
